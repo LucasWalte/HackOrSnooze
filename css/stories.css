@@ -1,0 +1,44 @@
+/* Stories container */
+.stories-container {
+  padding: 20px 0;
+}
+
+#stories-loading-msg {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007BFF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Lists of stories */
+.stories-list {
+  list-style: none;
+  padding: 0;
+}
+
+.stories-list > li {
+  background-color: #f8f9fa;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.stories-list > li:hover {
+  background-color: #e9ecef;
+}
+
+.story-link {
+  font-size: 1rem;
+  color: #007BFF;
+  font-weight: 500;
+}
+
+.story-author, .story-user, .story-hostname {
+  display: block;
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-top: 5px;
+}
